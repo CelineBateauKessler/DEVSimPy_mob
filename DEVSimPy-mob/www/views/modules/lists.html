@@ -1,0 +1,47 @@
+﻿<div id="popover" class="popover">
+    <ul class="table-view">
+        <li class="table-view-cell"><a id="refresh">Refresh</a></li>
+        <li class="table-view-cell"><a id="information">Information</a></li>
+        <li class="table-view-cell"><a id="settings">Settings</a></li>
+        <li class="table-view-cell"><a id="disconnect">Quit</a></li>
+    </ul>
+</div>
+
+<header class="bar bar-nav">
+    <a href="#popover">
+        <span class="icon icon-more-vertical pull-right"></span>
+    </a>
+    <a id="disconnect" class="icon icon-left-nav pull-left"></a>
+    <h1 class="title">DEVSIMPY</h1>
+</header>
+
+<div id="info" class="modal">
+</div>
+
+<div class="bar bar-standard bar-header-secondary" id="head2">
+    <div class="segmented-control">
+        <a class="control-item active" href="#models">
+            Models
+        </a>
+        <a class="control-item" href="#simulations">
+            Simulations
+        </a>
+    </div>
+</div>
+
+<div class="content">
+        <span id="models" class="control-content active">
+            <div class="card" id="list_models">
+                <div id="spinnerM" class="center">
+                    <img src="img/ajax-loader.gif" alt="Loading..." />
+                </div>
+            </div>
+        </span>
+        <span id="simulations" class="control-content">
+            <div class="card" id="list_simulations">
+                <div id="spinnerS" class="center">
+                    <img src="img/ajax-loader.gif" alt="Loading..." />
+                </div>
+            </div>
+        </span>
+</div>

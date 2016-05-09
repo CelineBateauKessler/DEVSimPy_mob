@@ -1,0 +1,17 @@
+{
+  "name": "DEVSimPy-mob1",
+  "dependencies": {
+    "ratchet": "^2.0.2",
+    "jointjs": "^0.9.7"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.*",
+      "css": "dist/css/*.*",
+      "fonts": "dist/fonts/*.*"
+    },
+    "jquery": {
+      "js": "jquery.{js,min.js,min.map}"
+    }
+  }
+}
